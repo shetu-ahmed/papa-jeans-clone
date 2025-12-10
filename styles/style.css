@@ -55,6 +55,10 @@
   font-size: 24px;
   margin: 0px 15px;
 }
+.button-items i:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
 .button-items input{
   height: 40px;
   width: 200px;
@@ -104,4 +108,60 @@
   height: 50px;
   width: 260px;
   border-radius: 45px;
+  transition: 0.3s;
+}
+.hero-content button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.layout-grid{
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.coats{
+  background-image: url(../images/models/models-6.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}
+.knit{
+  background-image: url(../images/models/models-7.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}
+.dress{
+  background-image: url(../images/models/models-1.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}
+.jeans{
+  background-image: url(../images/models/models-8.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 480px;
+}
+.layout-grid .grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.grid h2,h4,i{
+  color: #fff;
+}
+.grid h2{
+  font-size: 60px;
+  font-weight: 800;
+  text-shadow: 1px 1px 10px #000;
+}
+.grid div{
+  display: flex;
 }
